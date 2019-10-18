@@ -5,7 +5,8 @@ spring:
   profiles:
     active: dev
   application:
-    name: @pom.artifactId@
+#    name: @pom.artifactId@
+    name: paascloud-discovery
   rabbitmq:
     host: paascloud-mq-rabbit
     port: 5672
